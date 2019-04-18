@@ -1,0 +1,15 @@
+<% layout('layout') %>
+
+<link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+
+<div class="jumbotron" id="navbar-gap">
+    <div class="container">
+        <div class="heading text-center">
+            <h1> Test It!</h1>
+            <p>A new way of taking tests.</p>
+            <%if(!user){%>            &nbsp;
+            <a class="btn btn-success btn-lg" href="/auth/facebook" role="button">Login &raquo;</a>
+            <%}%>
+        </div>
+    </div>
+</div>
